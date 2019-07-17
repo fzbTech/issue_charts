@@ -1,11 +1,11 @@
 Redmine::Plugin.register :issue_charts do
 
   name 'Issue Charts plugin'
-  author 'Mike Sweetman'
+  author 'Dare Auto Inc'
   description 'Provides the capability to create charts and graphs for project issues.'
   version '2.0.0'
-  url 'https://github.com/masweetman/issue_charts'
-  author_url 'https://github.com/masweetman'
+  url 'https://github.com/fzbTech/issue_charts'
+  author_url ''
 
   project_module :charts do
     permission :view_charts, :charts => [:index, :show]
